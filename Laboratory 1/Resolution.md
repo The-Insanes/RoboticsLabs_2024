@@ -10,7 +10,13 @@ b-  Información del datasheet de Arduino UNO y consultar el tipo de
 
 microcontrolador, memoria, y número de puertos análogos y digitales. 
 
+    El tipo de microcontrolar que posee el arduino UNO es el ATMega328P el cuál está basado en 8-bit y pertenece a la familia AVR-RISC,
+    también posee una memoria de 32KB Flash, 2KB SRAM, 1KB EEPROM, posee 14 puertos digitales y 6 análogos.
+
 c-  ¿Para qué sirve la resistencia en fija unida con la fotoresistencia? 
+    
+    La resistencia fija junto al sensor de foto resistencia sirve para generar un divisor de voltaje el cuál 
+    genera un cambio medible para el arduino UNO y no sobrepase el voltaje máximo aceptado.
 
 d-  ¿Cuál es la diferencia entre pull-down y pull-up? 
 
@@ -28,9 +34,14 @@ Trigger?
 
 b-  ¿Cuáles es el rango de valores que se reciben del puerto A0? 
 
+    Los valores que se reciben del puerto A0 varian entre 295 y 300
+    
 c-  ¿Qué pasa si la resistencia R1 cambia de valor, ¿cómo afecta el valor? 
 
 ¿Qué valores de resistencia han usado?
+
+    Al hacer un cambio de resistencia de 1K homios a 4K homios se notó una variación en los valores recibidos con un 
+    aumento de 100.
 
 5-  Funcionamiento del circuito. Mostrar el funcionamiento al profesor para 
 
