@@ -1,41 +1,54 @@
-1-  Hacer el esquema de conexión en TinkerCard. (**15 ptos**) 
+# Respuestas a la Serie de Preguntas
 
-2-  Responder las siguientes preguntas: (**10 pto**) 
+## 1. Hacer el Esquema de Conexión en TinkerCad. (**15 ptos**) ✅
 
-a-  Información del datasheet del sensor SR04 y de la fotoresistencia (LDR).  
+## 2. Responder las Siguientes Preguntas: (**10 ptos**)
 
-Deberá consultar las propiedades del sensor algunas son: costo, velocidad de operación, tasa de error, robustez, peso, tamaño, etc.
+### a. Información del Datasheet del Sensor SR04 y de la Fotoresistencia (LDR). ✅
 
-b-  Información del datasheet de Arduino UNO y consultar el tipo de 
+#### Información del Datasheet del Sensor SR04 (Sensor Ultrasónico)
 
-microcontrolador, memoria, y número de puertos análogos y digitales. 
+El sensor ultrasónico SR04 es ampliamente utilizado para medir la distancia a un objeto mediante ondas ultrasónicas. Envía un pulso ultrasónico que rebota en el objeto y recibe el eco. La distancia se calcula basándose en el tiempo que tarda en regresar el eco. Algunas características clave del sensor SR04 incluyen:
 
-c-  ¿Para qué sirve la resistencia en fija unida con la fotoresistencia? 
+- **Rango de medición:** Generalmente, el rango de medición va desde 2 cm hasta 400 cm.
+- **Precisión:** La precisión puede variar, pero generalmente es de ±3 mm.
+- **Ángulo de medición:** Tiene un ángulo efectivo de menos de 15 grados.
+- **Frecuencia de operación:** Opera a una frecuencia de 40 kHz.
+- **Voltaje de operación:** Típicamente de 5 V DC.
+- **Consumo de corriente:** Máximo 15 mA durante la medición.
+- **Tamaño:** Compacto, facilitando su integración en proyectos.
+- **Costo:** Es un sensor de bajo costo, accesible para aficionados y proyectos educativos.
+- **Robustez:** Aunque es relativamente robusto para su tamaño y costo, puede ser susceptible a interferencias de sonido de alta frecuencia o a reflexiones erróneas en superficies irregulares.
 
-d-  ¿Cuál es la diferencia entre pull-down y pull-up? 
+#### Información del Datasheet de la Fotoresistencia (LDR)
 
-3-  Hacer el programa realizando el IDE de Arduino (Código). Debe instalar la 
+La fotoresistencia, o LDR (Light Dependent Resistor), es un componente que varía su resistencia eléctrica en respuesta a la luz. Las características principales de una LDR incluyen:
 
-librería Servo para poner a funcionar el actuador. (**10 ptos**) 
+- **Sensibilidad a la luz:** La resistencia disminuye al aumentar la intensidad de la luz incidente.
+- **Rango de resistencia:** En oscuridad, puede tener una resistencia de varios MΩ (megaohmios), y bajo luz brillante, la resistencia puede caer a unos pocos cientos de ohmios.
+- **Tiempo de respuesta:** Las LDRs tienen un tiempo de respuesta relativamente lento tanto para el aumento como para la disminución de la luz.
+- **Voltaje de operación:** No es aplicable directamente como en los sensores activos, pero la LDR debe usarse con un circuito adecuado para medir la resistencia.
+- **Costo:** Son muy económicas.
+- **Aplicaciones:** Ideales para condiciones de luz variable, no recomendadas para mediciones precisas de intensidad de luz o para condiciones de rápida variación de luz.
 
-4-  Una vez se encuentre funcionando su circuito con Arduino UNO. Responder 
+### b. Información del Datasheet de Arduino UNO y Consulta del Tipo de Microcontrolador, Memoria, y Número de Puertos Análogos y Digitales.
 
-las siguientes preguntas: (**10 ptos**) 
+### c. ¿Para Qué Sirve la Resistencia en Fija Unida con la Fotoresistencia?
 
-a-  ¿Qué pasa si se cambia el ancho del pulso en que se activa y desactiva el 
+### d. ¿Cuál es la Diferencia Entre Pull-Down y Pull-Up?
 
-Trigger? 
+Las resistencias pull-up y pull-down definen el estado lógico predeterminado de los pines de entrada en un circuito digital en ausencia de señales activas. Las pull-up mantienen el pin en un estado alto (HIGH) conectándolo a la fuente de voltaje positivo, útiles cuando se prefiere un estado inactivo alto. Las pull-down mantienen el pin en un estado bajo (LOW) al conectarlo a tierra (GND), adecuadas para un estado inactivo bajo.
 
-b-  ¿Cuáles es el rango de valores que se reciben del puerto A0? 
+## 3. Hacer el Programa Realizando el IDE de Arduino (Código). Debe Instalar la Librería Servo para Poner a Funcionar el Actuador. (**10 ptos**)
 
-c-  ¿Qué pasa si la resistencia R1 cambia de valor, ¿cómo afecta el valor? 
+## 4. Una Vez se Encuentre Funcionando su Circuito con Arduino UNO. Responder las Siguientes Preguntas: (**10 ptos**)
 
-¿Qué valores de resistencia han usado?
+### a. ¿Qué Pasa si se Cambia el Ancho del Pulso en que se Activa y Desactiva el Trigger?
 
-5-  Funcionamiento del circuito. Mostrar el funcionamiento al profesor para 
+### b. ¿Cuáles es el Rango de Valores que se Reciben del Puerto A0?
 
-validar este punto. (**20 ptos**) 
+### c. ¿Qué Pasa si la Resistencia R1 Cambia de Valor, ¿Cómo Afecta el Valor? ¿Qué Valores de Resistencia Han Usado?
 
-6-  Enviar el link del repositorio donde se encuentre el desarrollo del laboratorio 
+## 5. Funcionamiento del Circuito. Mostrar el Funcionamiento al Profesor para Validar este Punto. (**20 ptos**)
 
-(diagrama, código y respuesta de preguntas). Colocar en el repositorio un readme.md con el nombre de los integrantes **(5ptos)** 
+## 6. Enviar el Link del Repositorio Donde se Encuentre el Desarrollo del Laboratorio (Diagrama, Código y Respuesta de Preguntas). Colocar en el Repositorio un Readme.md con el Nombre de los Integrantes. (**5ptos**)
