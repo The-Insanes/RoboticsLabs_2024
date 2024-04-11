@@ -34,7 +34,7 @@ Trigger?
 
 b-  ¿Cuáles es el rango de valores que se reciben del puerto A0? 
 
-    Los valores que se reciben del puerto A0 varian entre 295 y 300
+    Los valores que se reciben del puerto A0 varian entre 295 y 300.
     
 c-  ¿Qué pasa si la resistencia R1 cambia de valor, ¿cómo afecta el valor? 
 
