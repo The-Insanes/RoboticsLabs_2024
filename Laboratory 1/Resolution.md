@@ -2,7 +2,7 @@
 
 ## 1. Hacer el Esquema de Conexión en TinkerCad. (**15 ptos**) ✅
 
-## 2. Responder las Siguientes Preguntas: (**10 ptos**)
+## 2. Responder las Siguientes Preguntas: (**10 ptos**) ✅
 
 ### a. Información del Datasheet del Sensor SR04 y de la Fotoresistencia (LDR). ✅
 
@@ -31,34 +31,36 @@ La fotoresistencia, o LDR (Light Dependent Resistor), es un componente que varí
 - **Costo:** Son muy económicas.
 - **Aplicaciones:** Ideales para condiciones de luz variable, no recomendadas para mediciones precisas de intensidad de luz o para condiciones de rápida variación de luz.
 
-### b. Información del Datasheet de Arduino UNO y Consulta del Tipo de Microcontrolador, Memoria, y Número de Puertos Análogos y Digitales.
+### b. Información del Datasheet de Arduino UNO y Consulta del Tipo de Microcontrolador, Memoria, y Número de Puertos Análogos y Digitales. ✅
 
 El tipo de microcontrolar que posee el arduino UNO es el ATMega328P el cuál está basado en 8-bit y pertenece a la familia AVR-RISC,
 también posee una memoria de 32KB Flash, 2KB SRAM, 1KB EEPROM, posee 14 puertos digitales y 6 análogos.
 
-### c. ¿Para Qué Sirve la Resistencia en Fija Unida con la Fotoresistencia?
+### c. ¿Para Qué Sirve la Resistencia en Fija Unida con la Fotoresistencia? ✅
 
 La resistencia fija junto al sensor de foto resistencia sirve para generar un divisor de voltaje el cuál genera un cambio medible para el arduino UNO y no sobrepase el voltaje máximo aceptado.
 
-### d. ¿Cuál es la Diferencia Entre Pull-Down y Pull-Up?
+### d. ¿Cuál es la Diferencia Entre Pull-Down y Pull-Up? ✅
 
 Las resistencias pull-up y pull-down definen el estado lógico predeterminado de los pines de entrada en un circuito digital en ausencia de señales activas. Las pull-up mantienen el pin en un estado alto (HIGH) conectándolo a la fuente de voltaje positivo, útiles cuando se prefiere un estado inactivo alto. Las pull-down mantienen el pin en un estado bajo (LOW) al conectarlo a tierra (GND), adecuadas para un estado inactivo bajo.
 
-## 3. Hacer el Programa Realizando el IDE de Arduino (Código). Debe Instalar la Librería Servo para Poner a Funcionar el Actuador. (**10 ptos**)
+## 3. Hacer el Programa Realizando el IDE de Arduino (Código). Debe Instalar la Librería Servo para Poner a Funcionar el Actuador. (**10 ptos**)  ✅
 
-## 4. Una Vez se Encuentre Funcionando su Circuito con Arduino UNO. Responder las Siguientes Preguntas: (**10 ptos**)
+## 4. Una Vez se Encuentre Funcionando su Circuito con Arduino UNO. Responder las Siguientes Preguntas: (**10 ptos**) ✅
 
-### a. ¿Qué Pasa si se Cambia el Ancho del Pulso en que se Activa y Desactiva el Trigger?
+### a. ¿Qué Pasa si se Cambia el Ancho del Pulso en que se Activa y Desactiva el Trigger? ✅
 
-### b. ¿Cuáles es el Rango de Valores que se Reciben del Puerto A0?
+Al cambiar el ancho del pulso que activa el Trigger, se estaria modificando la duración del pulso ultrasónico emitido. Un pulso más largo puede resultar en un aumento del rango de detección, permitiendo medir distancias más largas. Sin embargo, esto puede comprometer la precisión y aumentar el consumo de energía.
+
+### b. ¿Cuáles es el Rango de Valores que se Reciben del Puerto A0? ✅
 
 Los valores que se reciben del puerto A0 varian entre 295 y 300.
 
-### c. ¿Qué Pasa si la Resistencia R1 Cambia de Valor, ¿Cómo Afecta el Valor? ¿Qué Valores de Resistencia Han Usado?
+### c. ¿Qué Pasa si la Resistencia R1 Cambia de Valor, ¿Cómo Afecta el Valor? ¿Qué Valores de Resistencia Han Usado? ✅
 
 Al hacer un cambio de resistencia de 1K homios a 4K homios se notó una variación en los valores recibidos con un 
 aumento de 100.
     
-## 5. Funcionamiento del Circuito. Mostrar el Funcionamiento al Profesor para Validar este Punto. (**20 ptos**)
+## 5. Funcionamiento del Circuito. Mostrar el Funcionamiento al Profesor para Validar este Punto. (**20 ptos**) ✅
 
-## 6. Enviar el Link del Repositorio Donde se Encuentre el Desarrollo del Laboratorio (Diagrama, Código y Respuesta de Preguntas). Colocar en el Repositorio un Readme.md con el Nombre de los Integrantes. (**5ptos**)
+## 6. Enviar el Link del Repositorio Donde se Encuentre el Desarrollo del Laboratorio (Diagrama, Código y Respuesta de Preguntas). Colocar en el Repositorio un Readme.md con el Nombre de los Integrantes. (**5ptos**) ✅
