@@ -1,6 +1,10 @@
 # Laboratorios de Robótica con Arduino
 
-![](logo_arduino.png)
+<div align="center">
+  <img src="logo_arduino.png" width="300" heght="200" alt="Descripción de la imagen">
+</div>
+
+<br>
 
 Este repositorio contiene los laboratorios desarrollados para el curso de Robótica con Arduino. Cada carpeta corresponde a un laboratorio específico donde se exploran diferentes aplicaciones y técnicas de robótica utilizando la plataforma Arduino.
 
