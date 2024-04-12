@@ -12,6 +12,7 @@ Este repositorio contiene los laboratorios desarrollados para el curso de Robót
 
 Cada directorio en el repositorio representa un laboratorio diferente y contiene los siguientes archivos:
 - **Código Fuente**: Scripts de Arduino (.ino) necesarios para programar los comportamientos de los robots.
+- **Diagramas**: Diagramas de circuitos de los componentes electrónicos.
 - **Instrucciones**: Un archivo Intructions.md con instrucciones específicas para cada laboratorio, incluyendo objetivos, materiales necesarios y pasos a seguir.
 - **Respuestas**: Un archivo Resolution.md con las respuestas específicas para cada laboratorio.
 
