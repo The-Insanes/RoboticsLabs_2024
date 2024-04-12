@@ -33,7 +33,12 @@ La fotoresistencia, o LDR (Light Dependent Resistor), es un componente que varí
 
 ### b. Información del Datasheet de Arduino UNO y Consulta del Tipo de Microcontrolador, Memoria, y Número de Puertos Análogos y Digitales.
 
+El tipo de microcontrolar que posee el arduino UNO es el ATMega328P el cuál está basado en 8-bit y pertenece a la familia AVR-RISC,
+también posee una memoria de 32KB Flash, 2KB SRAM, 1KB EEPROM, posee 14 puertos digitales y 6 análogos.
+
 ### c. ¿Para Qué Sirve la Resistencia en Fija Unida con la Fotoresistencia?
+
+La resistencia fija junto al sensor de foto resistencia sirve para generar un divisor de voltaje el cuál genera un cambio medible para el arduino UNO y no sobrepase el voltaje máximo aceptado.
 
 ### d. ¿Cuál es la Diferencia Entre Pull-Down y Pull-Up?
 
@@ -47,8 +52,13 @@ Las resistencias pull-up y pull-down definen el estado lógico predeterminado de
 
 ### b. ¿Cuáles es el Rango de Valores que se Reciben del Puerto A0?
 
+Los valores que se reciben del puerto A0 varian entre 295 y 300.
+
 ### c. ¿Qué Pasa si la Resistencia R1 Cambia de Valor, ¿Cómo Afecta el Valor? ¿Qué Valores de Resistencia Han Usado?
 
+Al hacer un cambio de resistencia de 1K homios a 4K homios se notó una variación en los valores recibidos con un 
+aumento de 100.
+    
 ## 5. Funcionamiento del Circuito. Mostrar el Funcionamiento al Profesor para Validar este Punto. (**20 ptos**)
 
 ## 6. Enviar el Link del Repositorio Donde se Encuentre el Desarrollo del Laboratorio (Diagrama, Código y Respuesta de Preguntas). Colocar en el Repositorio un Readme.md con el Nombre de los Integrantes. (**5ptos**)
