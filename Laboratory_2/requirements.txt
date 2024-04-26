@@ -1,0 +1,2 @@
+Pyserial==3.5
+pyFirmata2==2.5.0
