@@ -1,7 +1,7 @@
 # Laboratorios de Robótica con Arduino
 
 <div align="center">
-  <img src="logo_arduino.png" width="300" heght="200" alt="Descripción de la imagen">
+  <img src="./Images/logo_arduino.png" width="300" heght="200" alt="Descripción de la imagen">
 </div>
 
 <br>
