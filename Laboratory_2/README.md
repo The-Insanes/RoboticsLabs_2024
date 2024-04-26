@@ -24,3 +24,17 @@
 ### ¿El parámetro speed cuál es el valor máximo y mínimo que soporta? (para esto debe probar el funcionamiento y cambiar los valores)
 
 > El parámetro speed soporta como minimo 0 y como maximo 128.
+
+## Video de Presentación
+
+### Robot con movimiento hacia adelante
+
+<video autoplay controls width="500">
+    <source src="Video/Robot_forward.mp4" type="video/mp4">
+</video>
+
+### Robot con giro y frenado
+
+<video autoplay controls width="500">
+    <source src="Video/Robot_multi_moves.mp4" type="video/mp4">
+</video>
