@@ -2,7 +2,7 @@ import serial
 import pyfirmata2
 import time
 
-board = pyfirmata2.Arduino('COM6')
+board = pyfirmata2.Arduino('COM5')
 
 class Motor():
     def __init__(self, ln1A, ln2A, ln1B, ln2B):
@@ -15,9 +15,38 @@ class Motor():
         self.ln1A.write(speed)
         self.ln2A.write(0)
 
-        board.digital[self.ln1B].write(speed)
-        board.digital[self.ln2B].write(0)
+        self.ln1B.write(speed)
+        self.ln2B.write(0)
+
+    def turn_left(self, speed):
+        self.ln1A.write(0)
+        self.ln2A.write(0)
+
+        self.ln1B.write(speed)
+        self.ln2B.write(0)
+
+    def turn_right(self, speed):
+        self.ln1A.write(speed)
+        self.ln2A.write(0)
+
+        self.ln1B.write(0)
+        self.ln2B.write(0)
+
+
+    def turn_stop(self):
+        self.ln1A.write(0)
+        self.ln2A.write(0)
+        self.ln1B.write(0)
+        self.ln2B.write(0)
 
 if __name__ == '__main__':
     motor = Motor(5, 6, 9, 10)
-    motor.forward(0.0)
+
+    for i in range(10):
+        motor.forward(10.0)
+        time.sleep(5)
+        motor.turn_left(10.0)
+        time.sleep(5)
+        motor.turn_right(10.0)
+        time.sleep(5)
+        motor.turn_stop()
