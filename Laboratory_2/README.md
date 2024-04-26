@@ -29,7 +29,7 @@
 
 ### Robot con movimiento hacia adelante
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZUBujpvbyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/6ZUBujpvbyM?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Robot con giro y frenado
 
