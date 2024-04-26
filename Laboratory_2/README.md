@@ -29,6 +29,7 @@
 
 ### Robot con movimiento hacia adelante
 
+[Ver Video](Video/Robot_forward.mp4)
 <video autoplay controls width="500">
     <source src="Video/Robot_forward.mp4" type="video/mp4">
 </video>
