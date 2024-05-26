@@ -67,7 +67,7 @@ Motor motor(3, 5, 6, 9);
 Servo servo_1;
 String option;
 long distance;
-
+  
 long ultrasonic_sensor(int trigger, int echo) {
    long time;
 
