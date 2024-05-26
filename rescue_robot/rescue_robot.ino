@@ -99,11 +99,14 @@ void turn_head(int degree, int turn_delay) {
 
 void actions(long distance_ult) {
    long new_distance;
+   String jsonData = "{\"temperature\": " + String(distance_ult, 2) + ", \"humidity\": " + String(new_distance, 2) + "}";
 
+   jsonData = "{\"ultrasonic\": {\"first distance\":" + String(distance_ult, 2);
    if(distance_ult <= 20) {
       motor.stop();
       turn_head(55, 15);
       new_distance = ultrasonic_sensor(TRIGGER, ECHO);
+      jsonData = jsonData + ', \"turn head left\": ' + String(new_distance);
 
       if(new_distance > distance_ult) {
          motor.backward(150);
@@ -113,11 +116,15 @@ void actions(long distance_ult) {
          delay(50);
 
          turn_head(init_degree_head, 15);
+         jsonData = jsonData + '}';
+
+         BT.println(jsonData);
          return;
       }
       
       turn_head(155, 15);
       new_distance = ultrasonic_sensor(TRIGGER, ECHO);
+      jsonData = jsonData + ', \"turn head right\": ' + String(new_distance);
 
       if(new_distance > distance_ult) {
          motor.backward(150);
@@ -127,6 +134,9 @@ void actions(long distance_ult) {
          delay(50);
 
          turn_head(init_degree_head, 15);
+         jsonData = jsonData + '}';
+
+         BT.println(jsonData);
          return;
       }
 
@@ -154,7 +164,6 @@ void setup(){
 
 void loop(){
    distance = ultrasonic_sensor(TRIGGER, ECHO);
-   Serial.println(distance);
 
    if(BT.available()) {
       option = BT.readStringUntil('\n');
